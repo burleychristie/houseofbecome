@@ -3,233 +3,296 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>House of Become - Jewelry for Women in Transition</title>
-    <meta name="description" content="Fine jewelry for moments of becoming. Not milestones, but crossings. Woman as curator of her own life.">
+    <title>House of Become — Jewelry for Women in Transition</title>
+    <meta name="description" content="Fine jewelry for moments of becoming. Not milestones, but crossings.">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600;6..96,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="nav">
-        <div class="nav-container">
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
             <div class="nav-logo">
-                <a href="#home">
-                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M8 28V16C8 14.5 9 13 10.5 13H21.5C23 13 24 14.5 24 16V28" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-                        <path d="M6 16C6 10 9 4 16 4C23 4 26 10 26 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-                        <rect x="14.5" y="18" width="3" height="5" fill="currentColor"/>
-                    </svg>
-                </a>
+                <svg width="24" height="24" viewBox="0 0 32 32" fill="none">
+                    <path d="M8 28V16C8 14.5 9 13 10.5 13H21.5C23 13 24 14.5 24 16V28" stroke="currentColor" stroke-width="1.5"/>
+                    <path d="M6 16C6 10 9 4 16 4C23 4 26 10 26 16" stroke="currentColor" stroke-width="1.5"/>
+                    <rect x="14.5" y="18" width="3" height="5" fill="currentColor"/>
+                </svg>
+                <span>HOUSE OF BECOME</span>
             </div>
-            <div class="nav-links">
-                <a href="#about">About</a>
-                <a href="#collection">Collection</a>
-                <a href="#story">Story</a>
-                <a href="#contact">Contact</a>
-            </div>
-        </div>
-    </nav>
+            <ul class="nav-links">
+                <li><a href="#collection">Collection</a></li>
+                <li><a href="#philosophy">Philosophy</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title fade-in">House of Become</h1>
-            <p class="hero-subtitle fade-in-delay">Jewelry for women in transition</p>
-            <p class="hero-description fade-in-delay-2">
-                Not milestones. But crossings.
-            </p>
-            <a href="#collection" class="cta-button fade-in-delay-3">Explore the Collection</a>
-        </div>
-        <div class="scroll-indicator">
-            <span>Scroll</span>
-            <div class="scroll-line"></div>
+    <!-- Hero Banner -->
+    <section class="hero-banner">
+        <div class="hero-overlay"></div>
+        <img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?w=2000&q=90" alt="Elegant woman wearing jewelry" class="hero-bg">
+        <div class="hero-content-wrapper">
+            <div class="hero-text">
+                <p class="hero-eyebrow">Introducing</p>
+                <h1 class="hero-title">Not milestones.<br>But crossings.</h1>
+                <p class="hero-description">Fine jewelry for women in transition. Marking moments of internal change, not external status.</p>
+                <a href="#collection" class="btn-hero">Discover The Collection</a>
+            </div>
         </div>
     </section>
 
-    <!-- Philosophy Section -->
-    <section class="philosophy">
+    <!-- Category Cards -->
+    <section class="category-section">
         <div class="container">
-            <div class="philosophy-content">
-                <h2 class="section-title">Moments of Becoming</h2>
-                <div class="philosophy-grid">
-                    <div class="philosophy-item">
-                        <p>First big decision made alone</p>
+            <div class="section-intro">
+                <h2>Moments of Becoming</h2>
+                <p>Your jewelry is not for beginnings or endings—it's for crossings.</p>
+            </div>
+            <div class="category-grid">
+                <div class="category-card">
+                    <div class="category-image">
+                        <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800&q=90" alt="First decision">
                     </div>
-                    <div class="philosophy-item">
-                        <p>Leaving something behind</p>
+                    <div class="category-content">
+                        <h3>First Big Decision</h3>
+                        <p>Made alone</p>
                     </div>
-                    <div class="philosophy-item">
-                        <p>Stepping into leadership</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-image">
+                        <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800&q=90" alt="Leaving behind">
                     </div>
-                    <div class="philosophy-item">
-                        <p>Returning to oneself</p>
+                    <div class="category-content">
+                        <h3>Leaving Behind</h3>
+                        <p>Creating space for what comes next</p>
                     </div>
-                    <div class="philosophy-item">
-                        <p>Choosing depth over speed</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-image">
+                        <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&q=90" alt="Leadership">
+                    </div>
+                    <div class="category-content">
+                        <h3>Stepping Into Leadership</h3>
+                        <p>Embracing your capacity</p>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <div class="category-image">
+                        <img src="https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=800&q=90" alt="Returning">
+                    </div>
+                    <div class="category-content">
+                        <h3>Returning to Oneself</h3>
+                        <p>Reclaiming your voice</p>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <div class="category-image">
+                        <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&q=90" alt="Depth">
+                    </div>
+                    <div class="category-content">
+                        <h3>Choosing Depth</h3>
+                        <p>Over speed</p>
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Featured Product -->
+    <section id="collection" class="featured-product">
+        <div class="product-layout">
+            <div class="product-images">
+                <div class="main-image">
+                    <img id="mainProductImage" src="https://images.unsplash.com/photo-1599643477877-530eb83abc8e?w=1200&q=90" alt="The Threshold Pendant">
+                </div>
+                <div class="thumbnail-gallery">
+                    <img src="https://images.unsplash.com/photo-1599643477877-530eb83abc8e?w=400&q=90" alt="View 1" class="thumbnail active" onclick="changeImage(this)">
+                    <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=400&q=90" alt="View 2" class="thumbnail" onclick="changeImage(this)">
+                    <img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?w=400&q=90" alt="View 3" class="thumbnail" onclick="changeImage(this)">
+                    <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=400&q=90" alt="View 4" class="thumbnail" onclick="changeImage(this)">
+                </div>
+            </div>
+            <div class="product-details">
+                <span class="product-label">Signature Collection</span>
+                <h2 class="product-name">The Threshold Pendant</h2>
+                <div class="product-rating">
+                    <span class="stars">★★★★★</span>
+                    <span class="reviews">(127 reviews)</span>
+                </div>
+                
+                <div class="product-description">
+                    <p class="lead-text">There are moments that do not announce themselves. They are quiet. Internal. Decisive.</p>
+                    <p>The Threshold Pendant was created to mark those moments. Its form is drawn from an arch—a passage—the space between what has been and what comes next.</p>
+                    <p>At its center sits a single emerald-cut diamond, contained rather than displayed. Held, not performed. This is not a symbol of arrival. It is a marker of crossing.</p>
+                </div>
+
+                <div class="product-specs">
+                    <div class="spec">
+                        <span class="spec-label">Material</span>
+                        <span class="spec-value">18K Gold</span>
+                    </div>
+                    <div class="spec">
+                        <span class="spec-label">Stone</span>
+                        <span class="spec-value">Emerald-Cut Diamond</span>
+                    </div>
+                    <div class="spec">
+                        <span class="spec-label">Chain Length</span>
+                        <span class="spec-value">16-18" Adjustable</span>
+                    </div>
+                </div>
+
+                <div class="product-actions">
+                    <a href="#contact" class="btn-primary-large">Inquire About This Piece</a>
+                    <p class="inquiry-note">Each piece is made to order with intention</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Full Width Story -->
+    <section id="philosophy" class="story-banner">
+        <div class="story-content">
+            <h2>Woman as curator of her own life</h2>
+            <p>This jewelry marks the moment you chose yourself—even if no one else knows.</p>
         </div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container-wide">
-            <div class="about-grid">
-                <div class="about-text">
-                    <h2 class="section-title">Woman as Curator</h2>
-                    <p class="large-text">
-                        Your jewelry is not for beginnings or endings — it's for crossings.
-                    </p>
-                    <p>
-                        We position jewelry as a marker of internal change, not external status. 
-                        Each piece represents the moments we quietly choose ourselves.
-                    </p>
-                    <p>
-                        This is woman as curator of her own life, not a muse. This jewelry marks 
-                        the moment you chose yourself — even if no one else knows.
-                    </p>
-                </div>
-                <div class="about-image">
-                    <div class="image-placeholder">
-                        <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800&q=80" alt="Elegant jewelry detail" loading="lazy">
+    <section id="about" class="about-section">
+        <div class="about-grid">
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?w=1000&q=90" alt="Our Philosophy">
+            </div>
+            <div class="about-content">
+                <span class="section-label">Our Mission</span>
+                <h2>Designed for daily wear, close to the body</h2>
+                <p>The Threshold Pendant becomes part of the wearer's rhythm—present through change, steady through motion. The diamond does not seek attention; it grounds the piece, anchoring meaning in permanence.</p>
+                <p>Chosen intentionally. Worn without occasion. A reminder that becoming is not a destination, but a passage we move through again and again.</p>
+                <div class="about-features">
+                    <div class="feature">
+                        <h4>Not Performance</h4>
+                        <p>Honoring internal transformation</p>
+                    </div>
+                    <div class="feature">
+                        <h4>Quiet Power</h4>
+                        <p>Speaking to your own knowing</p>
+                    </div>
+                    <div class="feature">
+                        <h4>Daily Companion</h4>
+                        <p>Present through every moment</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Collection Section -->
-    <section id="collection" class="collection">
+    <!-- Testimonials -->
+    <section class="testimonials">
         <div class="container">
-            <div class="collection-header">
-                <h2 class="section-title">The Collection</h2>
-                <p class="section-subtitle">Markers of passage, designed for daily wear</p>
-            </div>
-
-            <div class="product-feature">
-                <div class="product-images">
-                    <div class="product-image-main">
-                        <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800&q=80" alt="The Threshold Pendant" loading="lazy">
+            <h2>Moments Marked</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"I wear it every day as a reminder of the moment I chose to leave and start over. It's become part of me."</p>
+                    <div class="testimonial-author">
+                        <strong>Sarah M.</strong>
+                        <span>San Francisco, CA</span>
                     </div>
                 </div>
-                <div class="product-details">
-                    <div class="product-tag">Signature Piece</div>
-                    <h3 class="product-title">The Threshold Pendant</h3>
-                    <p class="product-description">
-                        There are moments that do not announce themselves. They are quiet. 
-                        Internal. Decisive. The Threshold Pendant was created to mark those moments.
-                    </p>
-                    <p>
-                        Its form is drawn from an arch — a passage — the space between what has 
-                        been and what comes next. At its center sits a single emerald-cut diamond, 
-                        contained rather than displayed. Held, not performed.
-                    </p>
-                    <p>
-                        This is not a symbol of arrival. It is a marker of crossing.
-                    </p>
-                    <div class="product-features">
-                        <div class="feature-item">
-                            <h4>Material</h4>
-                            <p>18K Gold</p>
-                        </div>
-                        <div class="feature-item">
-                            <h4>Stone</h4>
-                            <p>Emerald-Cut Diamond</p>
-                        </div>
-                        <div class="feature-item">
-                            <h4>Design</h4>
-                            <p>Arch Silhouette</p>
-                        </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"This isn't just jewelry. It marks the crossing when I stepped into leadership—quietly powerful."</p>
+                    <div class="testimonial-author">
+                        <strong>Jennifer K.</strong>
+                        <span>New York, NY</span>
                     </div>
-                    <a href="#contact" class="cta-button">Inquire</a>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Story Section -->
-    <section id="story" class="story">
-        <div class="container-narrow">
-            <h2 class="section-title">A Marker of Crossing</h2>
-            <div class="story-content">
-                <p class="large-text">
-                    Designed to be worn daily, close to the body, the Threshold Pendant becomes 
-                    part of the wearer's rhythm — present through change, steady through motion.
-                </p>
-                <p>
-                    The diamond does not seek attention; it grounds the piece, anchoring meaning 
-                    in permanence. Chosen intentionally. Worn without occasion.
-                </p>
-                <p class="emphasis">
-                    A reminder that becoming is not a destination, but a passage we move through 
-                    again and again.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Values Section -->
-    <section class="values">
-        <div class="container">
-            <div class="values-grid">
-                <div class="value-card">
-                    <h3>Not Performance</h3>
-                    <p>Jewelry that honors internal transformation rather than external validation</p>
-                </div>
-                <div class="value-card">
-                    <h3>Daily Ritual</h3>
-                    <p>Pieces designed to be present through your everyday moments of becoming</p>
-                </div>
-                <div class="value-card">
-                    <h3>Quiet Power</h3>
-                    <p>Elegance that speaks to your own knowing, not to others' expectations</p>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"The most meaningful piece I own. It's for me, not for show. That's exactly what I needed."</p>
+                    <div class="testimonial-author">
+                        <strong>Maya L.</strong>
+                        <span>Austin, TX</span>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container-narrow">
-            <h2 class="section-title">Begin Your Journey</h2>
-            <p class="section-subtitle">
-                Each piece is created with intention. Reach out to discuss your moment of becoming.
-            </p>
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <div class="contact-info">
+                <span class="section-label">Get in Touch</span>
+                <h2>Begin Your Journey</h2>
+                <p>Each piece is created with intention. Share your moment of becoming with us, and we'll guide you through the process.</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <h4>Email</h4>
+                        <p>hello@houseofbecome.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <h4>Inquiries</h4>
+                        <p>We respond within 24 hours</p>
+                    </div>
+                </div>
+            </div>
             <form class="contact-form">
-                <div class="form-group">
-                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" name="email" required>
+                    </div>
                 </div>
                 <div class="form-group">
-                    <input type="email" id="email" name="email" placeholder="Email Address" required>
+                    <label>Tell us about your moment of becoming</label>
+                    <textarea name="message" rows="5" required></textarea>
                 </div>
-                <div class="form-group">
-                    <textarea id="message" name="message" rows="6" placeholder="Tell us about your moment of becoming..." required></textarea>
-                </div>
-                <button type="submit" class="cta-button">Send Inquiry</button>
+                <button type="submit" class="btn-primary-large">Send Inquiry</button>
             </form>
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <svg width="40" height="40" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M8 28V16C8 14.5 9 13 10.5 13H21.5C23 13 24 14.5 24 16V28" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-                        <path d="M6 16C6 10 9 4 16 4C23 4 26 10 26 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-                        <rect x="14.5" y="18" width="3" height="5" fill="currentColor"/>
-                    </svg>
-                    <p class="footer-brand">House of Become</p>
-                </div>
-                <div class="footer-text">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <path d="M8 28V16C8 14.5 9 13 10.5 13H21.5C23 13 24 14.5 24 16V28" stroke="currentColor" stroke-width="1.5"/>
+                    <path d="M6 16C6 10 9 4 16 4C23 4 26 10 26 16" stroke="currentColor" stroke-width="1.5"/>
+                    <rect x="14.5" y="18" width="3" height="5" fill="currentColor"/>
+                </svg>
+                <div class="brand-text">
+                    <h3>House of Become</h3>
                     <p>Jewelry for women in transition</p>
-                    <p class="footer-copyright">&copy; 2025 House of Become. All rights reserved.</p>
                 </div>
             </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h4>Explore</h4>
+                    <a href="#collection">Collection</a>
+                    <a href="#philosophy">Philosophy</a>
+                    <a href="#about">About Us</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect</h4>
+                    <a href="#contact">Contact</a>
+                    <a href="mailto:hello@houseofbecome.com">Email Us</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow</h4>
+                    <a href="#">Instagram</a>
+                    <a href="#">Pinterest</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 House of Become. All rights reserved.</p>
         </div>
     </footer>
 
