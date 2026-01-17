@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ring: rgba(212, 175, 55, 0.35);
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #6A0F1A;
+  color: #F2EDE7;
+  text-rendering: geometricPrecision;
+}
+
+::selection {
+  background: rgba(212, 175, 55, 0.25);
+}
+
+/* Subtle paper-grain texture */
+.grain::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.08;
+  mix-blend-mode: soft-light;
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='.45'/%3E%3C/svg%3E");
+}
+
+@layer components {
+  .ring-focus {
+    outline: none;
+    box-shadow: 0 0 0 3px var(--ring);
+  }
+}
