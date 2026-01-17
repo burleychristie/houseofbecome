@@ -2,6 +2,7 @@ import Image from "next/image";
 import Container from "@/components/Container";
 import Reveal from "@/components/Reveal";
 import Mark from "@/components/Mark";
+import ContactForm from "@/components/ContactForm";
 
 const becomingMoments = [
   "First big decision made alone",
@@ -247,22 +248,7 @@ export default function Page() {
                   For early releases, private notes, and new chapters.
                 </p>
               </div>
-              <form
-                onSubmit={(e) => e.preventDefault()}
-                className="flex w-full md:w-auto gap-3"
-              >
-                <input
-                  type="email"
-                  placeholder="Email"
-                  className="w-full md:w-72 rounded-full bg-white/5 border border-white/15 px-5 py-3 text-sm placeholder:text-blush/40 ring-focus"
-                />
-                <button
-                  type="submit"
-                  className="rounded-full border border-gilded/60 px-6 py-3 text-sm hover:bg-gilded/10 ring-focus"
-                >
-                  Join
-                </button>
-              </form>
+              <ContactForm />
             </div>
           </Reveal>
 
